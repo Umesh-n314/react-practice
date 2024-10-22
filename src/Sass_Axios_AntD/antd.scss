@@ -1,0 +1,8 @@
+$tomatoColor: tomato;
+
+// componets style can be overided
+.antd-section {
+  .search-btn {
+    background-color: $tomatoColor;
+  }
+}

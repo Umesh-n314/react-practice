@@ -1,0 +1,40 @@
+//we can import other sass files and use
+
+@import "./Styles/style.scss";
+
+//variables are created/used using $variableName and can be assigned any css property
+$redColor: $tomatoColor; //  $tomatoColor imported from style.scss
+$black: black;
+$b: bold;
+$pad20: 20px;
+
+//mixins are similar to functions created and used wherever needed, we can pass  attributes and styles as params using $style:defalut_values if needed
+@mixin flexDirection($direction: row, $gap: 30px) {
+  padding: 10px;
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  gap: $gap;
+}
+
+.hello {
+  border: 5px solid $redColor;
+  padding: $pad20;
+  width: calc(50px + 30vw); // css calc() function
+  height: 40px + 190px; // we can do math opertions without calc() but units must be compatible
+  button {
+    padding: 2px;
+    border: 2px solid orangered;
+    &:hover {
+      padding: 4px;
+      background-color: $black;
+      color: white;
+      border-radius: 5px;
+      font-weight: $b;
+    }
+  }
+  .parent {
+    border: 1px solid green;
+    @include flexDirection(column, 20px);
+  }
+}
