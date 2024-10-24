@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getGeoLocation, fetchWeatherReport, fetchCall } from "./GetReport";
+import { fetchCall } from "./GetReport";
 import DataCard from "./DataCard";
 
 function GetData() {

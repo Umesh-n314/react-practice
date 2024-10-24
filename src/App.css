@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  width: calc(50px + 50vw);
+  /* width: calc(50px + 50vw); */
   height: 100vh;
   /* border: 3px solid red; */
   /* .App {

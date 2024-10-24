@@ -13,7 +13,8 @@ import "./App.css";
 // import { StudentCard } from "./Sass_Axios_AntD/Sass";
 // import "./Sass_Axios_AntD/sass.scss"
 // import { Antd } from "./Sass_Axios_AntD/AntD";
-import { AxiosExample } from "./Sass_Axios_AntD/AxiosExample";
+// import { AxiosExample } from "./Sass_Axios_AntD/AxiosExample";
+// import Rating from "./Rating/Rating";
 
 export default function App() {
   return (
@@ -28,7 +29,8 @@ export default function App() {
       {/* <GetData /> */}
       {/* <StudentCard/> */}
       {/* <Antd/> */}
-      <AxiosExample />
+      {/* <AxiosExample /> */}
+      {/* <Rating/> */}
     </div>
   );
 }

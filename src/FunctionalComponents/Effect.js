@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
  *      useEffect takes 2 args:
  *          1.callback func
  *          2.dependency list (optional)
- *       and do not return anything, must be used inside a function/comp
+ *       and do not return anything or returns disposer function, must be used inside a function/comp
  */
 //useEffect(func) will act like both componentDidMount and componentDidUpdate
 //useEffect(func, []) empty dependency list will act like componentDidMount

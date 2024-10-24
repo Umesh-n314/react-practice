@@ -1,3 +1,6 @@
+const API_key = process.env.REACT_APP_API_KEY;
+// console.log(API_key);
+
 export function getGeoLocation() {
   return new Promise((resolve, reject) => {
     navigator.geolocation.getCurrentPosition(resolve, reject);

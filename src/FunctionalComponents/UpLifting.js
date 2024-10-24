@@ -1,8 +1,8 @@
 import { useState } from "react";
-
-//state uplifiting:creating useState in parent so that any child can have access to it  
-//  passing state and setState as props to child, so that anyone(par/child) can modify and consume it.
 //reason to use useEffect
+//state uplifiting:creating useState in parent so that any child can have access to it
+//passing state and setState as props to child, so that anyone(par/child) can modify and consume it.
+
 const Test = ({ count, updateCount }) => {
   //   console.log(count);
   function increase() {
