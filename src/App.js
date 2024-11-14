@@ -15,7 +15,6 @@ import "./App.css";
 // import { AxiosExample } from "./Sass_Axios_AntD/AxiosExample";
 // import Rating from "./Rating/Rating";
 // import { Reference_Exe } from "./Hooks/Ref_exe";
-// import { AuthApp } from "./Authentication/AuthApp";
 // import { Parent } from "./Hooks/Context";
 // import MemoExe from "./Hooks/MemoExe";
 // import MemoExample from "./Hooks/Memo";
@@ -36,7 +35,6 @@ export default function App() {
       {/* <AxiosExample /> */}
       {/* <Rating/> */}
       {/* <Reference_Exe /> */}
-      {/* <AuthApp /> */}
       {/* <Parent /> */}
       {/* <MemoExe /> */}
       {/* <MemoExample /> */}

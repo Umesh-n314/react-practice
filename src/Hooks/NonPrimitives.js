@@ -2,23 +2,25 @@ import { useState } from "react";
 
 export function ArrayPrimitive() {
   const [arr, setArr] = useState(["umesh", "veeresh", "vamsi"]);
-  const [name,newName]=useState("");
-  function addName(){
-    setArr([...arr,name]);
+  const [name, newName] = useState("");
+  function addName() {
+    setArr([...arr, name]);
     newName("");
   }
-  function setName(e){
-      newName(e.target.value)
+  function setName(e) {
+    newName(e.target.value);
   }
-  return <>
-  <input placeholder="Enter Name" value={name} onChange={setName}  />
-  <button onClick={addName}>Add Name to List</button>
-  <ul>
-    {arr.map((x,index)=>{
-      return <li key={index}>{x}</li>
-    })}
-  </ul>
-  </>;
+  return (
+    <>
+      <input placeholder="Enter Name" value={name} onChange={setName} />
+      <button onClick={addName}>Add Name to List</button>
+      <ul>
+        {arr.map((x, index) => {
+          return <li key={index}>{x}</li>;
+        })}
+      </ul>
+    </>
+  );
 }
 
 export default function NonPrimitives() {

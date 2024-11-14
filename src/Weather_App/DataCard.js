@@ -7,10 +7,20 @@ const now = new Date();
 //   minute: "2-digit",
 //   hour12: true,
 // };
-const hrs= now.getHours();
-const minutes= now.getMinutes();
-const time = `${hrs>12? hrs-12:hrs}:${minutes>9?minutes:"0"+minutes} ${hrs>12?"PM":"AM"}`
-const  days=["Sunday","Monday","Tuesday","Wednesday","Thrusday","Friday","Saturday"]
+const hrs = now.getHours();
+const minutes = now.getMinutes();
+const time = `${hrs > 12 ? hrs - 12 : hrs}:${
+  minutes > 9 ? minutes : "0" + minutes
+} ${hrs > 12 ? "PM" : "AM"}`;
+const days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thrusday",
+  "Friday",
+  "Saturday",
+];
 
 const DataCard = ({ filteredData }) => {
   //   console.log(filteredData);
@@ -65,7 +75,9 @@ const DataCard = ({ filteredData }) => {
         </div>
         <div className="right">
           <h3>Weather</h3>
-          <p>{days[now.getDay()]} , {time}</p>
+          <p>
+            {days[now.getDay()]} , {time}
+          </p>
           <p>{filteredData.main}</p>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { useState } from "react";
 const findSum = () => {
   let sum = 0;
   const n = 3000;
-  console.log("findsum Called")
+  console.log("findsum Called");
   for (let i = 0; i <= n; i++) {
     sum += i;
   }

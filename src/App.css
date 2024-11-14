@@ -7,7 +7,7 @@ body {
   height: 100vh;
   .App {
     height: 100vh;
-    .pages{
+    .pages {
       height: 100vh;
       display: flex;
       align-items: center;
