@@ -33,7 +33,7 @@ import { useEffect, useState } from "react";
 //   );
 // };
 
-//useEffect as a componentWillUnmount
+//useEffect as a componentDidUnmount
 //useEffect will return a cleanUp/disposer function which is called by react after the child is unmounted, unlike in classComponent componentWillUnmount where it is executed just before the child unmount.
 const Child = () => {
   useEffect(() => {

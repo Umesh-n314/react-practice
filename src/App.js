@@ -1,13 +1,12 @@
 import "./App.css";
 
-// import AppPages from "./Pages/AppPages";
 // import Toggle from "./ClassComponents/Toggle.js"
-// import Counter from "./FunctionalComponents/Counter";
+// import Counter from "./Hooks/Effect_exe";
 // import AppToDo from "./ToDo/AppToDo";
-// import LazyInitialization from "./FunctionalComponents/LazyInitialization";
-// import NonPrimitives, { ArrayPrimitive } from "./FunctionalComponents/NonPrimitives";
-// import UpLifting from "./FunctionalComponents/UpLifting";
-// import Effect from "./FunctionalComponents/Effect";
+// import LazyInitialization from "./Hooks/LazyInitialization";
+// import NonPrimitives, { ArrayPrimitive } from "./Hooks/NonPrimitives";
+// import UpLifting from "./Hooks/UpLifting";
+// import Effect from "./Hooks/Effect_exe";
 // import GetData from "./Weather_App/GetData";
 // import "./Weather_App/datacard.css";
 // import { StudentCard } from "./Sass_Axios_AntD/Sass";
@@ -15,12 +14,17 @@ import "./App.css";
 // import { Antd } from "./Sass_Axios_AntD/AntD";
 // import { AxiosExample } from "./Sass_Axios_AntD/AxiosExample";
 // import Rating from "./Rating/Rating";
+// import { Reference_Exe } from "./Hooks/Ref_exe";
+// import { AuthApp } from "./Authentication/AuthApp";
+// import { Parent } from "./Hooks/Context";
+// import MemoExe from "./Hooks/MemoExe";
+// import MemoExample from "./Hooks/Memo";
+// import AppPages from "./Routing_pages/AppPages";
 
 export default function App() {
   return (
     <div className="App">
       {/* <AppToDo /> */}
-      {/* <AppPages/> */}
       {/* <LazyInitialization/> */}
       {/* <NonPrimitives /> */}
       {/* <ArrayPrimitive/> */}
@@ -31,6 +35,12 @@ export default function App() {
       {/* <Antd/> */}
       {/* <AxiosExample /> */}
       {/* <Rating/> */}
+      {/* <Reference_Exe /> */}
+      {/* <AuthApp /> */}
+      {/* <Parent /> */}
+      {/* <MemoExe /> */}
+      {/* <MemoExample /> */}
+      {/* <AppPages /> */}
     </div>
   );
 }
